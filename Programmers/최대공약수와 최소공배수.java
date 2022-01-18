@@ -22,6 +22,7 @@ class Solution {
 		int max = 0;
 		for(int i= 0; i < al1.size(); i++) {
 			for(int j = 0; j < al2.size() ; j++) {
+				 // == 말고 equals로 하니까 해결됐음 .. .
 				if(al1.get(i).equals(al2.get(j))) {
 					max = (int)al1.get(i);
 				}
